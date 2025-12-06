@@ -755,6 +755,5 @@ if not TOKEN:
     print("Por favor, configura la variable de entorno DISCORD_TOKEN (o TOKEN).")
 else:
     try:
-        bot.run(TOKEN)
-    except Exception as e:
-        print(f"Error iniciando el bot: {e}")
+        bot.run(os.getenv("DISCORD_TOKEN"))
+    except Exception as e
