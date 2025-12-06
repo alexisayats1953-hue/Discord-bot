@@ -1,3 +1,4 @@
 discord.py
 vaderSentiment
 psycopg2-binary
+python-dotenv
